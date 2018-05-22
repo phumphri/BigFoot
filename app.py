@@ -59,5 +59,7 @@ def data():
 def home():
     return render_template("index.html")
 
-if __name__ == "__main__":
-    app.run(debug=False)
+if __name__ == '__main__':
+    from os import environ
+    app.run(debug=False, port=environ.get("PORT", 5000))
+    
