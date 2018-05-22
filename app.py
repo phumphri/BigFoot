@@ -14,7 +14,7 @@ from flask import (
 # Database Setup
 #################################################
 engine = create_engine("sqlite:///db/bigfoot.sqlite")
-engine = create_engine("sqlite:///C:/Users/Patrick/OneDrive/A/01-Class-Content/15-Interactive-Visualizations-and-Dashboards/3/Activities/Unsolved/04-Stu_Bigfoot/db/bigfoot.sqlite")
+# engine = create_engine("sqlite:///C:/Users/Patrick/OneDrive/A/01-Class-Content/15-Interactive-Visualizations-and-Dashboards/3/Activities/Unsolved/04-Stu_Bigfoot/db/bigfoot.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
